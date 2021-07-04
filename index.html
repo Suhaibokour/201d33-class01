@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 1</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: aqua;
+
+        }
+
+        #link {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Class 1 Lab
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a id="link" ; href="https://www.google.com/">google</a>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <main>
+        <p style="color: blue; background-color: skyblue;">
+            We would like you to inter your name so we could welcome you properly
+        </p>
+        <p style="color: tomato;background-color: white;">
+            Can you give us your age to make sure you are above 18
+        </p>
+        <p style="color: white;background-color: yellowgreen;">
+            Now we almost got all the required answers that would help us to let you get the best expirence in our website
+        </p>
+
+
+    </main>
+    <footer>
+        <script>
+            let userName = prompt("We would like you to inter your name so we could welcome you properly")
+            alert("It is a pleasure to meet you " + userName)
+            console.log("this is about username", userName)
+            let age = prompt("Can you give us your age to make sure you are above 18 " + userName)
+            alert(" Now that we know your age is " + age + ", " + userName + ". We would like to ask you about your favorite city")
+            console.log("this is about user age", age)
+            let favoriteCity = prompt("Please tell us what is your favorite city " + userName + "?")
+            alert("Now we almost got all the required answers that would help us to let you get the best expirence in our website " + userName + ". So far we know that your age is " + age + " and your favorite city is " + favoriteCity + ". Last but not least we would like you to write in one sentence what kinds of things you would like to do once you reach " + favoriteCity)
+            console.log("this is about user's favorite city", favoriteCity)
+            let activites = prompt("Inter one or two things you would do once you reach " + favoriteCity)
+            alert("OKay " + userName + ", \'" + activites + "\' seems exciting ! Now you are one of the candidates for winning this trip")
+            console.log("this is about user's activites",activites)
+
+
+
+        </script>
+        &copy; suhaib
+    </footer>
+</body>
+
+</html>
